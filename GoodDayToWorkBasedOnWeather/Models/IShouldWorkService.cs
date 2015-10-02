@@ -10,5 +10,6 @@ namespace GoodDayToWorkBasedOnWeather.Models
     {
         string IsItAGoodDayToWork(string zipCode);
         IWeatherRepositary isItAGoodDayTowork(string zipcode);
+        //This is a test
     }
 }
