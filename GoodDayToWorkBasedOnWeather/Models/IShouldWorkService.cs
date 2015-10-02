@@ -9,5 +9,6 @@ namespace GoodDayToWorkBasedOnWeather.Models
     interface IShouldWorkService
     {
         string IsItAGoodDayToWork(string zipCode);
+        IWeatherRepositary isItAGoodDayTowork(string zipcode);
     }
 }
